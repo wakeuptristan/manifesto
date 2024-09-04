@@ -1,0 +1,88 @@
+/* Resetting some default styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background: #fff;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #000;
+    color: #fff;
+    padding: 4rem 1.5rem; /* Increased padding for more height */
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Optional: to handle overflow from animations */
+}
+
+header h1 {
+    font-size: 3rem; /* Increased font size */
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.5rem; /* Increased font size */
+    margin-bottom: 2rem; /* More space below the paragraph */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 1rem 2rem; /* Increased padding for larger button */
+    font-size: 1.2rem; /* Increased font size */
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem; /* Larger font size for hero section */
+    margin: 1rem 0;
+    opacity: 0;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Larger font size */
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
